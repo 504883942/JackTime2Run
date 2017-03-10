@@ -1,0 +1,132 @@
+【日志信息: 2017-03-09 09:13:52.690】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:13:55.499】服务:【timetorun】启动失败:System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.Data.SqlClient.SqlException: 列名 'FileName' 无效。
+列名 'ClassName' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RunInService.JobHelper.get_Tasks() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\JobHelper.cs:行号 16
+   在 RunInService.JobHelper.Sche() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\JobHelper.cs:行号 30
+   在 RunInService.TimeToRun.LoadJob() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\TimeToRun.cs:行号 71
+   在 RunInService.TimeToRun.Start() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\TimeToRun.cs:行号 35
+【日志信息: 2017-03-09 09:21:19.161】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:21:20.147】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:27:46.160】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:27:47.220】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:28:56.620】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:28:58.100】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:31:38.157】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:31:38.857】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:34:39.567】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:35:04.882】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:35:08.715】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:36:13.775】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:36:14.536】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:37:17.877】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:37:18.664】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:38:52.816】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:38:53.696】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:39:53.206】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:39:54.537】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:42:48.234】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:42:49.015】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:45:07.795】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:45:09.289】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:49:52.800】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:49:54.110】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:50:28.963】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:50:29.733】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 09:58:59.387】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 09:59:00.194】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:01:49.991】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:01:50.802】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:02:40.825】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:02:41.557】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:05:08.169】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:05:09.069】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:06:59.710】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:07:00.486】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:07:41.161】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:07:42.260】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:09:29.860】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:09:31.166】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:11:55.326】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:11:56.161】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:16:28.793】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:16:29.743】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:21:16.500】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:21:17.327】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:25:24.864】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:25:25.506】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:26:31.280】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:26:32.330】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:30:53.267】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:30:54.226】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:33:33.892】服务:【timetorun】停止了!
+【日志信息: 2017-03-09 10:36:19.925】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:36:22.165】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:40:23.002】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:40:24.494】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:41:14.247】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:41:15.421】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:44:32.530】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:44:33.591】服务:【timetorun】启动失败:System.FormatException: Increment > 60 : 60
+   在 Quartz.CronExpression.StoreExpressionVals(Int32 pos, String s, Int32 type)
+   在 Quartz.CronExpression.BuildExpression(String expression)
+   在 Quartz.CronExpression..ctor(String cronExpression)
+   在 Quartz.CronExpression.ValidateExpression(String cronExpression)
+   在 Quartz.CronScheduleBuilder.CronSchedule(String cronExpression)
+   在 Quartz.CronScheduleTriggerBuilderExtensions.WithCronSchedule(TriggerBuilder triggerBuilder, String cronExpression)
+   在 RunInService.JobHelper.<>c.<Sche>b__4_0(Task_t i) 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\JobHelper.cs:行号 41
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 RunInService.JobHelper.Sche() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\JobHelper.cs:行号 30
+   在 RunInService.TimeToRun.LoadJob() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\TimeToRun.cs:行号 71
+   在 RunInService.TimeToRun.Start() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\TimeToRun.cs:行号 35
+【日志信息: 2017-03-09 10:45:17.887】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:45:18.886】服务:【timetorun】启动失败:System.FormatException: Increment > 60 : 60
+   在 Quartz.CronExpression.StoreExpressionVals(Int32 pos, String s, Int32 type)
+   在 Quartz.CronExpression.BuildExpression(String expression)
+   在 Quartz.CronExpression..ctor(String cronExpression)
+   在 Quartz.CronExpression.ValidateExpression(String cronExpression)
+   在 Quartz.CronScheduleBuilder.CronSchedule(String cronExpression)
+   在 Quartz.CronScheduleTriggerBuilderExtensions.WithCronSchedule(TriggerBuilder triggerBuilder, String cronExpression)
+   在 RunInService.JobHelper.<>c.<Sche>b__4_0(Task_t i) 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\JobHelper.cs:行号 41
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 RunInService.JobHelper.Sche() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\JobHelper.cs:行号 30
+   在 RunInService.TimeToRun.LoadJob() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\TimeToRun.cs:行号 71
+   在 RunInService.TimeToRun.Start() 位置 D:\2-Project\1-智慧水务\JackTime2Run\RunInService\TimeToRun.cs:行号 35
+【日志信息: 2017-03-09 10:46:05.342】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:46:06.222】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:46:12.734】服务:【timetorun】停止了!
+【日志信息: 2017-03-09 10:49:01.539】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:49:02.446】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 10:52:13.238】服务:【timetorun】将要启动了...
+【日志信息: 2017-03-09 10:52:14.884】服务:【timetorun】启动成功!
+【日志信息: 2017-03-09 19:29:06.060】服务:【timetorun】将要启动了...

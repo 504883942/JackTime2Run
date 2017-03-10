@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JackTime2Run", "JackTime2Run\JackTime2Run.csproj", "{99FA5D65-5582-437F-8F9E-75BE873C18F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "Manager\Manager.csproj", "{7D95C492-4915-4883-8C77-5D2821978E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunInWebSite", "RunInWebSite\RunInWebSite.csproj", "{B9F53FEF-5C4C-4C99-BA09-69F4B938B784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunInService", "RunInService\RunInService.csproj", "{3A03F042-15BF-4E12-B138-D2C6E4BCFCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicUtil", "DynamicUtil\DynamicUtil.csproj", "{F04B1D9A-6051-46E7-AA6E-D4E105F1B5F1}"
+EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -25,8 +27,24 @@ Global
 		{7D95C492-4915-4883-8C77-5D2821978E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D95C492-4915-4883-8C77-5D2821978E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D95C492-4915-4883-8C77-5D2821978E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F53FEF-5C4C-4C99-BA09-69F4B938B784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F53FEF-5C4C-4C99-BA09-69F4B938B784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F53FEF-5C4C-4C99-BA09-69F4B938B784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F53FEF-5C4C-4C99-BA09-69F4B938B784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A03F042-15BF-4E12-B138-D2C6E4BCFCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A03F042-15BF-4E12-B138-D2C6E4BCFCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A03F042-15BF-4E12-B138-D2C6E4BCFCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A03F042-15BF-4E12-B138-D2C6E4BCFCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04B1D9A-6051-46E7-AA6E-D4E105F1B5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04B1D9A-6051-46E7-AA6E-D4E105F1B5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04B1D9A-6051-46E7-AA6E-D4E105F1B5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04B1D9A-6051-46E7-AA6E-D4E105F1B5F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal

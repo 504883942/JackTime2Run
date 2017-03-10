@@ -1,0 +1,26 @@
+【日志信息: 2017-03-03 17:02:02.177】服务:【Legen】将要启动了...
+【日志信息: 2017-03-03 17:02:02.196】服务:【Legen】读取配置文件:D:\2-Project\1-智慧水务\JackTime2Run\RunInService\bin\Debug\RunInService.exe.Config
+【日志信息: 2017-03-03 17:02:02.643】服务:【Legen】启动失败:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 JackTime2Run.JobHelper.Sche() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\JobHelper.cs:行号 25
+   在 JackTime2Run.Time2RunSrv.LoadJob(String jobpath) 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 101
+   在 JackTime2Run.Time2RunSrv.Start() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 60
+【日志信息: 2017-03-03 17:02:02.697】服务:【Legen】停止了!
+【日志信息: 2017-03-03 17:02:27.173】服务:【Legen】将要启动了...
+【日志信息: 2017-03-03 17:02:27.180】服务:【Legen】读取配置文件:D:\2-Project\1-智慧水务\JackTime2Run\RunInService\bin\Debug\RunInService.exe.Config
+【日志信息: 2017-03-03 17:02:27.372】服务:【Legen】启动失败:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 JackTime2Run.JobHelper.Sche() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\JobHelper.cs:行号 25
+   在 JackTime2Run.Time2RunSrv.LoadJob(String jobpath) 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 101
+   在 JackTime2Run.Time2RunSrv.Start() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 60
+【日志信息: 2017-03-03 17:02:27.397】服务:【Legen】停止了!
+【日志信息: 2017-03-03 17:07:38.406】服务:【Legen】将要启动了...
+【日志信息: 2017-03-03 17:07:38.415】服务:【Legen】读取配置文件:D:\2-Project\1-智慧水务\JackTime2Run\RunInService\bin\Debug\RunInService.vshost.exe.Config
+【日志信息: 2017-03-03 17:07:39.047】服务:【Legen】启动失败:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 JackTime2Run.JobHelper.Sche() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\JobHelper.cs:行号 25
+   在 JackTime2Run.Time2RunSrv.LoadJob(String jobpath) 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 101
+   在 JackTime2Run.Time2RunSrv.Start() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 60
+【日志信息: 2017-03-03 17:07:54.788】服务:【Legen】将要启动了...
+【日志信息: 2017-03-03 17:07:54.793】服务:【Legen】读取配置文件:D:\2-Project\1-智慧水务\JackTime2Run\RunInService\bin\Debug\RunInService.vshost.exe.Config
+【日志信息: 2017-03-03 17:07:55.584】服务:【Legen】启动失败:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 JackTime2Run.JobHelper.Sche() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\JobHelper.cs:行号 25
+   在 JackTime2Run.Time2RunSrv.LoadJob(String jobpath) 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 101
+   在 JackTime2Run.Time2RunSrv.Start() 位置 D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\Time2RunSrv.cs:行号 60

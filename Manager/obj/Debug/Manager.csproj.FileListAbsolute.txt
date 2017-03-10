@@ -1,0 +1,10 @@
+D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\bin\Debug\Manager.exe.config
+D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\bin\Debug\Manager.exe
+D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\bin\Debug\Manager.pdb
+D:\2-Project\1-智慧水务\JackTime2Run\Manager\obj\Debug\Manager.csprojResolveAssemblyReference.cache
+D:\2-Project\1-智慧水务\JackTime2Run\Manager\obj\Debug\Manager.Main.resources
+D:\2-Project\1-智慧水务\JackTime2Run\Manager\obj\Debug\Manager.JobEdit.resources
+D:\2-Project\1-智慧水务\JackTime2Run\Manager\obj\Debug\Manager.Properties.Resources.resources
+D:\2-Project\1-智慧水务\JackTime2Run\Manager\obj\Debug\Manager.csproj.GenerateResource.Cache
+D:\2-Project\1-智慧水务\JackTime2Run\Manager\obj\Debug\Manager.exe
+D:\2-Project\1-智慧水务\JackTime2Run\Manager\obj\Debug\Manager.pdb

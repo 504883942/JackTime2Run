@@ -1,0 +1,152 @@
+【日志信息: 2017-03-01 16:39:21.217】[任务名:每周三凌晨清理Equeue7天之前的日志][任务类型:编译CS文件][程序集搜索路径:][编译文件:DynamicCodes\DeleteEqueueLog.cs][执行类:JackSrc.Program][执行方法:DeleteLog][出错]
+System.IO.DirectoryNotFoundException: 未能找到路径“D:\2-Project\1-智慧水务\JackTime2Run\JackTime2Run\bin\Debug\DynamicCodes\DeleteEqueueLog.cs”的一部分。
+
+Server stack trace: 
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   在 System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   在 System.IO.File.ReadAllLines(String path)
+   在 DynamicUtil.RemoteUtil.ParseSrc(String srcCodePath, String& srcCode, CompilerParameters parameters)
+   在 DynamicUtil.RemoteUtil.Compile(String srcCodePath)
+   在 DynamicUtil.RemoteUtil.InvokeSrc(String srcCodePath, String classFullName, String methodName, Type[] paraTypes, Object[] args)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 DynamicUtil.RemoteUtil.InvokeSrc(String srcCodePath, String classFullName, String methodName, Type[] paraTypes, Object[] args)
+   在 DynamicUtil.MainlUtil.InvokeSrc(String searchPath, String srcCodePath, String classFullName, String methodName, Type[] paraTypes, Object[] paras, Int32 counter)
+【日志信息: 2017-03-01 16:41:00.250】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:41:30.009】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:42:00.012】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:42:30.018】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:43:00.011】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:43:30.020】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:44:00.012】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:44:30.005】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:45:00.016】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:45:30.007】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:46:00.079】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:46:30.011】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:47:00.013】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:47:30.022】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:48:00.012】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:48:30.013】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:49:00.020】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:49:30.005】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:50:00.010】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:50:30.010】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:51:00.009】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:51:30.014】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:52:00.085】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:52:30.034】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:53:00.007】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:53:30.010】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:54:00.011】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:54:30.020】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:55:00.006】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:55:30.004】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:56:00.031】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:56:30.009】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:57:00.022】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:57:30.012】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:58:00.047】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:58:30.010】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:59:00.037】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 16:59:30.006】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:00:00.026】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:00:30.008】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:01:00.012】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:01:30.021】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:02:00.036】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:02:30.012】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:03:00.018】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:03:30.039】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:04:00.009】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:04:30.013】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:05:00.019】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:05:30.011】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:06:00.084】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:06:30.006】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:07:00.015】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:07:30.006】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:08:00.026】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:08:30.035】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:09:00.015】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:09:30.028】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:10:00.026】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:10:30.005】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:11:00.023】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:11:30.011】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:12:00.015】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:12:30.020】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+
+【日志信息: 2017-03-01 17:13:00.036】[任务名:示例-dll-空参数(30秒循环调用)][任务类型:dll调用][程序集搜索路径:Dlls][执行类:Demo2.Program, Demo2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null][执行方法:Show][成功]
+

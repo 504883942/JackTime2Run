@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TaskModelStoreContainer" CdmEntityContainer="TaskEntities">
+    <EntitySetMapping Name="Task_t">
+      <EntityTypeMapping TypeName="TaskModel.Task_t">
+        <MappingFragment StoreEntitySet="Task_t">
+          <ScalarProperty Name="SrcCodeFilePath" ColumnName="SrcCodeFilePath" />
+          <ScalarProperty Name="Paras" ColumnName="Paras" />
+          <ScalarProperty Name="Enable" ColumnName="Enable" />
+          <ScalarProperty Name="Method" ColumnName="Method" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="SearchPath" ColumnName="SearchPath" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="LogWhen" ColumnName="LogWhen" />
+          <ScalarProperty Name="Cron" ColumnName="Cron" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Uid" ColumnName="Uid" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

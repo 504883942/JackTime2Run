@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TaskModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Task_t">
+    <Key>
+      <PropertyRef Name="Uid" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Uid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cron" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LogWhen" Type="int" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SearchPath" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="TypeName" Type="varchar" MaxLength="500" />
+    <Property Name="Method" Type="varchar" MaxLength="50" />
+    <Property Name="Enable" Type="int" Nullable="false" />
+    <Property Name="Paras" Type="varchar(max)" />
+    <Property Name="SrcCodeFilePath" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityContainer Name="TaskModelStoreContainer">
+    <EntitySet Name="Task_t" EntityType="Self.Task_t" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
